@@ -1,0 +1,8 @@
+let
+   body = "The POST method body here",
+   Data= Web.Contents("https://yourusrlhere",[Content=Text.ToBinary(body),Headers=[#"Content- 
+   Type"="application/json"]]),
+   DataRecord = Json.Document(Data),
+   Source=DataRecord 
+in
+   Source
