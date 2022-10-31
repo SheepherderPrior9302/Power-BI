@@ -1,0 +1,17 @@
+Headcount (end of the period) = 
+
+VAR selectedDate = MAX ( 'Date'[Date] )
+    
+RETURN
+    SUMX (
+        'F_VIK_Headcount',
+        VAR employeeStartDate = 'F_VIK_Headcount'[Start date]
+        VAR employeeEndDate = 'F_VIK_Headcount'[End date]
+        RETURN
+            IF (
+                employeeStartDate <= selectedDate
+                    && OR ( employeeEndDate > selectedDate, employeeEndDate = BLANK () ),
+                1,
+                0
+            )
+    )
