@@ -1,4 +1,4 @@
-# Power BI Reports
+# Power BI Projects
 
 This repository contains a collection of Power BI reports developed for various data analysis and visualization projects. Each report focuses on a specific business or analytical context, providing meaningful insights and interactive visualizations.
 
