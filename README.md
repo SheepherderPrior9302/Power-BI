@@ -6,7 +6,7 @@ This repository contains a collection of Power BI reports developed for various 
 
 In addition to the Power BI reports, this repository also includes useful scripts in different languages for data preparation and analysis:
 
-- (/useful-ts-scripts): A collection of TypeScript scripts for custom visual creation projects.
+- [Useful TS Scripts(/useful-ts-scripts): A collection of TypeScript scripts for custom visual creation projects.
 
 - (/m-scripts): M scripts used in Power Query to perform data transformations and manipulations. These scripts can help customize and enhance the data preparation process within Power BI.
 
