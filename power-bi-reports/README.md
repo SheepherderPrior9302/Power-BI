@@ -1,1 +1,1 @@
-This repository contains Power BI dashboards
+Repository containing Power BI reports.
